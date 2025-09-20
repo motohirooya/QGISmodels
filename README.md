@@ -36,7 +36,7 @@
   [GrassGIS,QGISを使った水文解析](https://qiita.com/mooya/items/6b802d585e5546a2e693) 参照
 
 ### Make basin polygon.model3
-　[r.outletによる流域ポリゴン作成](https://qiita.com/mooya/items/6b802d585e5546a2e693#%E6%B5%81%E5%9F%9F%E3%81%AE%E4%BD%9C%E6%88%90)
+　[r.outletによる流域ポリゴン作成](https://qiita.com/mooya/items/6b802d585e5546a2e693#%E6%B5%81%E5%9F%9F%E3%81%AE%E4%BD%9C%E6%88%90) <BR>
 　r.outletは谷口（流出点）の指定が座標指定だが、モデルでラッピングして、ポイントベクタ指定としている。反復処理を使用することで複数流域をまとめて作成できる（別々のレイヤに出力されるのであとで、マージする）
 <img width="1612" height="754" alt="make basins polygon" src="https://github.com/user-attachments/assets/2cc79f8a-c14c-453d-9a12-500e3eb7d838" />
 
