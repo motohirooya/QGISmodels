@@ -32,7 +32,7 @@
   [GrassGIS,QGISを使った水文解析 凹地の平滑化について](https://qiita.com/mooya/items/a07a63393b222795bb17) 参照
  
 ### Waterflow by watershed.model3
-　水文解析（流向、流路）watershed。
+　r.watershedによる水文解析（流向、流路）。
   [GrassGIS,QGISを使った水文解析](https://qiita.com/mooya/items/6b802d585e5546a2e693) 参照
 
 ### Make basin polygon.model3
