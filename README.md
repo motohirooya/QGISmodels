@@ -1,4 +1,5 @@
 # QGISmodels
+動作確認はWindowsのみ。GRASS GISを使うものはユーザ名は半角英数のみ。
 ## DuplicatePolygonSplitting.model3
 重複ポリゴン分割
 ユースケースは、線形に沿った一部重複した図枠ポリゴンを重複なしに分割し、図枠内のラスタ・ベクタをクリップして、重複を無くす
@@ -22,8 +23,14 @@
 
 
 ## 水文解析
-### Filling up the elevation hole.model3
+### Fill small nodata.model3
+ 標高穴埋め。海（ラスタの外周と接するnodata）、埋めた後も孔が残ったnodataは埋めない。大きな水域（nodata）を中途半端に埋めるというユースケースはないと思ったことから作成。
+<img width="2091" height="764" alt="fill small nodata" src="https://github.com/user-attachments/assets/c5438c4b-b702-495f-a288-7984a9d07fd6" />
 
-### Filled elevation by terraflow.model3
-
+### Fill sinks by terraflow.model3
+　r.terraflowによる凹地埋め
+  [GrassGIS,QGISを使った水文解析 凹地の平滑化について](https://qiita.com/mooya/items/a07a63393b222795bb17) 参照
+ 
 ### Waterflow by watershed.model3
+　水文解析（流向、流路）watershed。
+  [GrassGIS,QGISを使った水文解析](https://qiita.com/mooya/items/6b802d585e5546a2e693) 参照
